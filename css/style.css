@@ -108,7 +108,7 @@ nav li a {
   font-size: 38px;
 }
 
-.img-left, .img-middle {
+.img-left, .img-middle, .img-right {
   height: 250px;
   position: relative;
 }
@@ -121,7 +121,9 @@ p {
   margin-top: 10px;
 }
 
-.img-left img, .img-middle img  {
+.img-left img,
+.img-middle img,
+.img-right img  {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -138,13 +140,9 @@ p {
 }
 
 
-.c-right, {
-  background-color: #ABCFE7;
-}
-
 .c-left, .c-right, .c-middle {
   float: left;
-  height: 700px;
+  /* height: 700px; */
 }
 
 /* /rows */
