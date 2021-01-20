@@ -10,6 +10,7 @@ body {
   color: #929292;
 }
 
+
 /* formattazione testo */
 h2 {
   font-weight: 400;
@@ -17,6 +18,7 @@ h2 {
 
 h3 {
   font-weight: 700;
+  letter-spacing: -1px;
 }
 /* /formattazione testo */
 
@@ -65,6 +67,7 @@ nav li {
   display: inline-block;
   margin-right: 10px;
 }
+
 nav li a {
   text-decoration: none;
   text-transform: uppercase;
@@ -78,7 +81,6 @@ nav li a {
 /* main */
 
 /* hero */
-
 .hero {
   margin: 40px 0;
   position: relative;
@@ -107,8 +109,8 @@ nav li a {
 
 /* /hero */
 
-/* rows */
 
+/* rows */
 .rows .row-top {
   margin-bottom: 40px;
 }
@@ -149,19 +151,16 @@ p {
   margin: 0 20px;
 }
 
-
 .c-left, .c-right, .c-middle {
   float: left;
-  /* height: 700px; */
 }
-
 /* /rows */
 /* /main */
 
 
 /* footer */
 footer {
-  color: black;
+  color: #929292;
   font-size: 12px;
   font-weight: 600;
   text-align: center;
