@@ -94,7 +94,6 @@ nav li a {
 /* rows */
 
 .rows {
-  /* background-color: #0E85EA; */
   margin-top: 40px;
   padding-bottom: 20px;
 }
@@ -131,12 +130,12 @@ p {
 }
 
 .c-left, .c-right {
-  width: 20%;
+  width: calc(20% - 20px);
 }
 
 .c-middle {
-  width: 58%;
-  margin: 0 1%;
+  width: 60%;
+  margin: 0 20px;
 }
 
 
