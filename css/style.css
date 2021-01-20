@@ -77,7 +77,7 @@ nav li a {
   right: 0;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 10;
-  border-radius: 20px;  
+  border-radius: 20px;
 }
 
 .testo-hero {
@@ -91,16 +91,38 @@ nav li a {
 
 /* /hero */
 
+/* rows */
+
 .rows {
-  background-color: #0E85EA;
+  /* background-color: #0E85EA; */
   margin-top: 40px;
   padding-bottom: 20px;
 }
 
 .rows .row-top {
-  background-color: #ABCFE7;
-  margin-bottom: 20px;
-  height: 120px;
+  margin-bottom: 40px;
+}
+
+.titolo-row-top {
+  color: black;
+  font-size: 38px;
+}
+
+.img-left {
+  position: relative;
+}
+
+h4 {
+  margin-top: 20px
+}
+
+p {
+  margin-top: 10px;
+}
+
+.c-left img {
+  width: 100%;
+  border-radius: 20px;
 }
 
 .c-left, .c-right {
@@ -112,8 +134,7 @@ nav li a {
   margin: 0 1%;
 }
 
-.row-top,
-.c-left,
+
 .c-right,
 .c-middle {
   background-color: #ABCFE7;
@@ -123,6 +144,8 @@ nav li a {
   float: left;
   height: 700px;
 }
+
+/* /rows */
 /* /main */
 
 
