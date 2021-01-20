@@ -21,6 +21,7 @@ body {
   margin: auto;
 }
 
+
 /* header */
 header {
   margin-top: 20px;
@@ -46,11 +47,49 @@ nav li a {
 
 
 /* main */
+
+/* hero */
+
 .hero {
-  background-color: #E3D67A;
-  height: 700px;
   margin-top: 40px;
+  position: relative;
 }
+
+.img-hero {
+  height: 590px;
+}
+
+.img-hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  border-radius: 20px;  
+}
+
+.testo-hero {
+  width: 50%;
+  position: absolute;
+  bottom: 80px;
+  left: 50px;
+  color: white;
+  z-index: 11;
+}
+
+/* /hero */
 
 .rows {
   background-color: #0E85EA;
