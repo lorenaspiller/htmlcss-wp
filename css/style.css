@@ -10,16 +10,45 @@ body {
   color: #929292;
 }
 
+/* formattazione testo */
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 700;
+}
+/* /formattazione testo */
+
+
+/* formattazione generale */
 .clearfix::after  {
   content: "";
   display: block;
   clear: both;
 }
 
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  border-radius: 20px;
+}
+/* /formattazione generale */
+
+
+ /* contenitore  */
 .contenitore {
   width: 70%;
   margin: auto;
 }
+/* /contenitore  */
 
 
 /* header */
@@ -28,7 +57,7 @@ header {
 }
 
 #logo {
-  width: 140px;
+  width: 160px;
   margin-bottom: 30px;
 }
 
@@ -51,7 +80,7 @@ nav li a {
 /* hero */
 
 .hero {
-  margin-top: 40px;
+  margin: 40px 0;
   position: relative;
 }
 
@@ -64,19 +93,6 @@ nav li a {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 20px;
-}
-
-.overlay {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 10;
   border-radius: 20px;
 }
 
@@ -93,11 +109,6 @@ nav li a {
 
 /* rows */
 
-.rows {
-  margin-top: 40px;
-  padding-bottom: 20px;
-}
-
 .rows .row-top {
   margin-bottom: 40px;
 }
@@ -113,7 +124,7 @@ nav li a {
 }
 
 h4 {
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 p {
@@ -154,7 +165,7 @@ footer {
   font-size: 12px;
   font-weight: 600;
   text-align: center;
-  margin: 25px 0;
+  margin: 30px 0;
 }
 
 span {
