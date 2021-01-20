@@ -150,9 +150,15 @@ p {
 
 /* footer */
 footer {
-  height: 100px;
-  background-color: #8801FE;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
   margin: 25px 0;
+}
 
+span {
+  color: red;
+  font-size: 20px;
 }
 /* /footer */
