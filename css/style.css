@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #929292;
+}
+
 .clearfix::after  {
   content: "";
   display: block;
@@ -18,9 +23,24 @@
 
 /* header */
 header {
-  background-color: #E579E6;
-  height: 150px;
   margin-top: 20px;
+}
+
+#logo {
+  width: 140px;
+  margin-bottom: 30px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #858585;
+  letter-spacing: -1px;
+  font-size: 15px;
 }
 /* /header */
 
